@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px gray solid;
+   
+
+
+}
+
+.container h1 {
+    height: 80px;
+    text-align: center;
+}
+
+
+.checkList {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.last-seccion {
+    background-color: black;
+    color: aliceblue;
+   
+}
+
+.last-seccion li {
+    display: inline;
+    
+}
