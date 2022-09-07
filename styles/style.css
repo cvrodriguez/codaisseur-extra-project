@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: large;
 }
 
 .container {
@@ -10,7 +10,8 @@ body {
     flex-direction: column;
     justify-content: center;
     border: 1px gray solid;
-   
+    height: 200px;
+   margin-top: 100px;
 
 
 }
@@ -21,19 +22,10 @@ body {
 }
 
 
-.checkList {
-    display: flex;
-    flex-direction: column;
- 
+.placeHold{
+    font-size: medium;
 }
-
-.last-seccion {
+.footer{
     background-color: black;
     color: aliceblue;
-   
-}
-
-.last-seccion li {
-    display: inline;
-    
 }
