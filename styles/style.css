@@ -48,11 +48,6 @@ footer {
    
 }
 
-.footer ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.footer li {
-   margin-right: 30px;
+footer span{
+    padding-left: 30px;
 }

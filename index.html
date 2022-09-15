@@ -11,15 +11,15 @@
 
 <body>
     <main>
-        <div class="title">
+        <div class="title" id="titleMain">
             <h1>TodoList</h1>
         </div>
         <div >
-            <input class="startInput" type="text" placeholder="What needs to do?">
+            <input id="questionInput" class="startInput" type="text" placeholder="What needs to do?">
         </div>
         <ul>
-            <li class="toDoList"> <label> <input type="checkbox">Sweep the floor</label></li>
-            <li class="toDoList"> <label> <input type="checkbox">Sweep the floor</label></li>
+            <li class="toDoList" id="firstProduct"> <label> <input class="doNot-checked" type="checkbox">Sweep the floor</label></li>
+            <li class="toDoList" id="secondProduct" > <label> <input class="do-checked" checked type="checkbox">Sweep the floor</label></li>
         </ul>
 
 
@@ -27,11 +27,11 @@
     </main>
 
     <footer class="footer">
-        <ul>
-            <li id="allList">Todo 1</li>
-            <li id="done">Do 0</li>
-            <li>Total 1</li>
-        </ul>
+     
+           Todo: <span id="toDo">1</span> 
+           •Done:<span id="done">0</span> 
+           •Total:<span id="total">1</span>
+        
 
     </footer>
     <script src="scripts/main.js" type="text/javascript"></script>
