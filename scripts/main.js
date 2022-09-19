@@ -87,4 +87,26 @@ document
 
   })
 
+function cleanUpDoneTodos() {
+
+  // get all the "done" items
+  const allDoneItems = document.querySelectorAll(".do-checked")
+
+  // loop through the "done" todo items
+  for (let i = 0; i < allDoneItems.length; i++) {
+ 
+    // and remove them from the DOM
+    const ulParent = document.querySelector("#listToDo")
+    ulParent.removeChild(allDoneItems[i])
+  }
+
+  // update the counters
+  updateCounters()
+}
+
+// retrieve the link
+const url = document.getElementById("linkCleanUp")
+// add an event listener for a click on the link to the cleanUpDoneTodos function
+url.addEventListener("click", cleanUpDoneTodos)
+
 
